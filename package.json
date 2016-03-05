@@ -1,6 +1,6 @@
 {
   "name": "tilestrata-bing",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A TileStrata plugin that provides Bing Maps tiles",
   "author": "Brian Reavis <brian@naturalatlas.com>",
   "license": "Apache-2.0",
