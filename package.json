@@ -1,0 +1,38 @@
+{
+  "name": "tilestrata-bing",
+  "version": "0.0.0",
+  "description": "A TileStrata plugin that provides Bing Maps tiles",
+  "author": "Brian Reavis <brian@naturalatlas.com>",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list",
+    "test-ci": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naturalatlas/tilestrata-bing.git"
+  },
+  "keywords": [
+    "tilestrata",
+    "tilestrata-plugin",
+    "tilestrata-provider",
+    "bing",
+    "satellite"
+  ],
+  "bugs": {
+    "url": "https://github.com/naturalatlas/tilestrata-bing/issues"
+  },
+  "homepage": "https://github.com/naturalatlas/tilestrata-bing",
+  "dependencies": {
+    "memoizeasync": "^0.9.0",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "peerDependencies": {
+    "tilestrata": "*"
+  }
+}
